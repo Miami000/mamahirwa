@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+ body{
+    
+    background-image: linear-gradient(rgba( 0,0,0,0.7),rgba( 0,0,0,0.7)),url(vv\ \(9\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 20px 
+}
+.nav{ 
+    flex: 1;
+    text-align: right;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+body{
+animation: 2.5s;
+}
+@keyframes mymove {
+    from {background-color:green;}
+    to {background-color: blue;}
+  }
